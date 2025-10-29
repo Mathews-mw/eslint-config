@@ -1,6 +1,6 @@
 {
   "name": "@austracode/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "ESLint Flat Config for Node, React and Next.js with TypeScript",
   "license": "MIT",
   "type": "module",

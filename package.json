@@ -1,0 +1,83 @@
+{
+  "name": "@austracode/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint Flat Config for Node, React and Next.js with TypeScript",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./flat/base.js",
+    "./node": "./flat/node.js",
+    "./react": "./flat/react.js",
+    "./next": "./flat/next.js",
+    "./typescript": "./flat/typescript.js"
+  },
+  "files": [
+    "flat",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "eslint",
+    "flat",
+    "config",
+    "typescript",
+    "react",
+    "nextjs",
+    "node"
+  ],
+  "engines": {
+    "node": ">=18.18"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Mathews A.",
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0",
+    "@types/ws": "^8.18.1",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-n": "^17.17.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.10",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-config-next": "^15.0.0",
+    "prettier": "^3.6.2"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-n": {
+      "optional": true
+    },
+    "eslint-plugin-promise": {
+      "optional": true
+    },
+    "eslint-plugin-unicorn": {
+      "optional": true
+    },
+    "eslint-plugin-react": {
+      "optional": true
+    },
+    "eslint-plugin-react-hooks": {
+      "optional": true
+    },
+    "eslint-plugin-react-refresh": {
+      "optional": true
+    },
+    "eslint-plugin-jsx-a11y": {
+      "optional": true
+    },
+    "eslint-config-next": {
+      "optional": true
+    }
+  }
+}

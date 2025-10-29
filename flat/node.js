@@ -3,9 +3,7 @@ import ts from './typescript.js';
 
 import n from 'eslint-plugin-n';
 import promise from 'eslint-plugin-promise';
-import importPlugin from 'eslint-plugin-import';
-// unicorn é opcional, mas dá boas regras para Node
-import unicorn from 'eslint-plugin-unicorn';
+import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 
 export default [
   ...base,
@@ -24,7 +22,7 @@ export default [
       n,
       promise,
       import: importPlugin,
-      unicorn
+      unicorn: eslintPluginUnicorn,
     },
     settings: {
       'import/resolver': { typescript: { alwaysTryTypes: true } }

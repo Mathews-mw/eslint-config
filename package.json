@@ -1,6 +1,6 @@
 {
   "name": "@austracode/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint Flat Config for Node, React and Next.js with TypeScript",
   "license": "MIT",
   "type": "module",
@@ -45,7 +45,7 @@
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-n": "^17.17.0",
     "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-unicorn": "^55.0.0",
+    "eslint-plugin-unicorn": "^62.0.0",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react-hooks": "^5.0.0",
